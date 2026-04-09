@@ -1,0 +1,9 @@
+# Find the index where double space is given.
+
+a = input("Enter the string :")
+
+print (a.find("  "))
+
+
+Output - 
+Gives the index of the double space, if not present returns valu (-1).
