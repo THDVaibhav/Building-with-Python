@@ -2,9 +2,12 @@
 # using loops
 
 n = int(input("Enter a no. :")
+#FOR LOOP
  for i in range (1,11):
  print(f"{n} * {i} = {n*i}")
-
+#WHILE LOOP
+while i <11:
+    print(f"{n}*{i} = {i*n}")
 
 Output - 
 Ask no and give the table
