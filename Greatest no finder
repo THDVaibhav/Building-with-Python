@@ -1,0 +1,13 @@
+a = int (input("Enter a number: "))
+b = int (input("Enter another number: "))
+c = int (input("Enter another number: "))
+
+def greatest(a,b,c):
+    if a>b and a>c:
+        return ("a is greatest")
+    elif b>a and b>c:
+        return ("b is greatest")
+    elif c>b and c>a:
+        return ("c is greatest")
+    return("Some numbers are equal")
+print(greatest(a,b,c))
