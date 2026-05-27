@@ -1,0 +1,17 @@
+n = float(input("Enter inches :"))
+
+def cm(n):
+    if n == 0:
+        return 0
+    else:
+        return (n*2.54)
+
+cm(n)
+print(cm(n))
+
+
+OUTPUT
+
+n = 5
+
+result = 12.7
