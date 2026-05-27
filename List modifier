@@ -1,0 +1,12 @@
+l = ["Honey","Bunny", 2342, 554.65,True]
+
+def li(l):
+    n = input("Enter item name in list to be removed: ")
+    m = input("Enter item name in list to be added: ")
+    if n in l:
+        l.remove(n)
+    else:
+        print("Item not in list")
+    l.append(m)
+    print(l)
+li(l)
